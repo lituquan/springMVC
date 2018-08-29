@@ -1,6 +1,7 @@
 # springMVC
 1.前端控制器
-  springmvc 核心类是org.springframework.web.servlet.DispatcherServlet,它实际上继承了HttpServlet,一般配置在web.xml里面.
+
+ springmvc 核心类是org.springframework.web.servlet.DispatcherServlet,它实际上继承了HttpServlet,一般配置在web.xml里面.
     <servlet>
       <servlet-name>springmvc</servlet-name>
       <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
