@@ -26,7 +26,7 @@
    -->处理请求,返回视图   
     
    form 表单设置：
-    <pre>
+    <textarea>
     <form action="upload" enctype="multipart/form-data" method="post"><!--设置编码类型-->
         <table>
             <tr>
@@ -42,7 +42,7 @@
             </tr>
         </table>
     </form>
-    </pre>
+    </textarea>
    springMVC配置接收文件：    
     <pre>
     <bean id="multipartResolver"  
