@@ -26,7 +26,7 @@
    -->处理请求,返回视图   
     
    form 表单设置：
-    <textarea rows=20 cols=60>
+    <xmp>
     <form action="upload" enctype="multipart/form-data" method="post"><!--设置编码类型-->
         <table>
             <tr>
@@ -42,9 +42,9 @@
             </tr>
         </table>
     </form>
-    </textarea>
+    </xmp>
    springMVC配置接收文件：    
-    <pre>
+    <xmp>
     <bean id="multipartResolver"  
         class="org.springframework.web.multipart.commons.CommonsMultipartResolver">  
         <!-- 上传文件大小上限，单位为字节（10MB） -->
@@ -81,7 +81,7 @@
            return "error";
        }
     }   
-   </pre>
+   </xmp>
  3. 参数和视图  
     控制器的方法，参数签名绑定，控制器返回值是视图。
 
