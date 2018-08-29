@@ -26,7 +26,7 @@
    -->处理请求,返回视图   
     
    form 表单设置：
-    <textarea>
+    <textarea rows=20 cols=60>
     <form action="upload" enctype="multipart/form-data" method="post"><!--设置编码类型-->
         <table>
             <tr>
